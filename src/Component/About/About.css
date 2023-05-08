@@ -1,0 +1,10 @@
+/* @media only screen and (max-width: 600px) {
+    #about{
+        background-color: rgb(143, 126, 126);
+       
+    }
+} */
+#about{
+    background-color: rgb(143, 126, 126);
+    height: 10vh;
+}

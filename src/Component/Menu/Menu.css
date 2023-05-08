@@ -1,0 +1,75 @@
+#menu {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    align-items: center;
+    /* padding: 1rem 1.5rem; */
+    z-index: 1;
+    /* display: none; */
+    /* border: 1px solid red; */
+
+}
+
+.cross-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    background: rgb(35, 32, 32);
+    /* background: red; */
+    transition: .5s ease;
+    /* border: 1px solid rgb(251, 49, 49); */
+    flex-direction: column;
+    z-index: 5;
+}
+
+.cross-screen .cross-hide {
+    transition: .5s ease;
+   
+    font-size: 40px;
+    /* color: red; */
+    cursor: pointer;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.mobile-view-list {
+    height: 100vh;
+    background: rgb(36, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+  
+    /* border: 1px solid rgb(251, 49, 49); */
+}
+/* .mobile-view-list{
+    list-style: none;
+    margin-top: 10%;
+} */
+.mobile-view-list li{ 
+    /* border: 1px solid rgb(251, 49, 49); */
+    margin: 1rem;
+   
+    cursor: pointer;
+    font-size: 4rem;
+    text-align: center;
+    font-family: cursive;
+} 
+.mobile-view-list a{
+    color: #fff;
+}
+.mobile-view-list a:hover{
+   
+    color: goldenrod;
+}
